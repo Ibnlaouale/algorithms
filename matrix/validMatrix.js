@@ -7,19 +7,20 @@ const validmatrix = (m) => {
         sum += m[i][j]
     }
   }
-  
+
   if (invalidTable) {
     console.log("matrix invalid");
-    return;
+   
   } else {
     console.log("matrix valid");
   }
 };
 
 let m = [
-  [1, 4, 2, 3],
+  [1, 4, , 3],
   [0, 9, 8, 7],
   [12, 33, 44, 22],
   [2, 2, 5, 2],
 ];
+
 validmatrix(m);
